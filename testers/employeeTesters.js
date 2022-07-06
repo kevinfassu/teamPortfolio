@@ -9,11 +9,11 @@ test("initiate object", () => {
 test("given employee Name", () => {
     const eName = "kevin"
     const employee = new Employee(eName);
-    expect(employee.eName)toBe(eName);
+    expect(employee.eName).toBe(eName);
 });
 // givin id for test
 test("set ID", () => {
-    const setId = 21;
+    const setId = "21";
     const employee = new Employee("kevin", setId);
     expect(employee.setId).toBe(setId);
 });
@@ -25,22 +25,22 @@ test("email", () => {
 });
 //
 test('get name from getName', () => {
-    const testName = "Grant"
-    const employee = new Employee(testName);
-    expect(employee.getName()).toBe(testName);
+    const eName = "kevin"
+    const employee = new Employee(eName);
+    expect(employee.getName()).toBe(eName);
 });
 test('get ID from getId', () => {
-    const testId = "100"
-    const employee = new Employee("Grant", testId);
-    expect(employee.getId()).toBe(testId);
+    const setId = "21"
+    const employee = new Employee("kevin", setId);
+    expect(employee.setId()).toBe(setId);
 });
 test('get email from getEmail', () => {
-    const testEmail = "grant@cheese.com"
-    const employee = new Employee("Grant", 1, testEmail);
-    expect(employee.getEmail()).toBe(testEmail);
+    const setEmail = "kevin@kevin.com"
+    const employee = new Employee("kevin", 21, setEmail);
+    expect(employee.setId()).toBe(setEmail);
 });
 test('getRole function', () => {
     const testRole = "Employee"
-    const employee = new Employee("Grant", 1, "grant@cheese.com");
+    const employee = new Employee("kevin", 21, "grant@cheese.com");
     expect(employee.getRole()).toBe(testRole);
 });
