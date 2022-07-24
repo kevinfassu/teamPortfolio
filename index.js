@@ -97,7 +97,8 @@ async function prompt() {
                     validate: function validateName(name){
                         return name !== "";
                     },
-                }, ]);
+                }, 
+            ]);
 
                 
                 const intern = new Intern(response.name, response.id, response.email, response2.x);
@@ -111,7 +112,9 @@ async function prompt() {
                     validate: function validateName(name){
                         return name !== "";
                     },
-                }, ]);
+                    
+                },
+             ]);
 
                 
                 const manager = new Manager(response.name, response.id, response.email, response2.x);
