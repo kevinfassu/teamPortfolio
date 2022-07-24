@@ -1,4 +1,4 @@
-const Intern = require("../lib/Intern");
+const Intern = require("../lib/intern");
 
 test("setting school through argument", () => {
     const testValue = "University of California Los Angeles";
