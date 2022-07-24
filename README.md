@@ -4,6 +4,6 @@
 this is a team portfolio where the user can insert information and generate a simple website where basic info can be seen and accessed.
 
 ## Demo Video
-![Watch the Video](img_vid\Untitled_ Jul 24, 2022 3_05 PM.webm)
+![Watch the Video](./img_vid/Untitled_%20Jul%2024%2C%202022%203_05%20PM.webm)
 ## Screenshots
-![Alt Text](img_vid\Screenshot 2022-07-24 153040.jpg)
+![Screen Shot](./img_vid/Screenshot%202022-07-24%20153040.jpg)
